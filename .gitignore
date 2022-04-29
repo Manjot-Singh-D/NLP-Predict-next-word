@@ -2,3 +2,9 @@ env
 __pycache__
 pics
 nltk_data
+markov_chain_1st_order.json
+markov_chain_2nd_order.json
+markov_chain_3rd_order.json
+next-word-pred/markov_chain_1st_order.json
+next-word-pred/markov_chain_2nd_order.json
+next-word-pred/markov_chain_3rd_order.json
