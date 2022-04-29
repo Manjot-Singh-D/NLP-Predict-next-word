@@ -5,6 +5,10 @@ from pred_next_word import app
 # from datetime import timedelta
 from src.user import main
 
+@app.route('/', methods=["GET", "POST"])
+def catch():
+    return app.send_static_file('index.html')
+
 @app.route('/api/getWord', methods=["POST", "GET"])
 def upload_file():
     content = request.get_json()
